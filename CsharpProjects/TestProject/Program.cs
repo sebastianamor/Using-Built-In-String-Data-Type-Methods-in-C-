@@ -78,11 +78,12 @@ const string input = "<div><h2>Widgets &trade;</h2><span>5000</span></div>";
 
 // Your work here
 
-string quantity = input.Remove(5, 20);
+string quantity = input.Remove(0, 35);
+//string quantity = input.Remove(40, 55);
 //message = message.Replace("-", "");
 
-Console.WriteLine(quantity);
-//Console.WriteLine(output);
+Console.WriteLine(  $"Quantity:  {quantity}");
+//Console.WriteLine(output); tenfo que practicar mas 
 
 //Quantity: 5000
 //Output: <h2>Widgets &reg;</h2><span>5000</span>
